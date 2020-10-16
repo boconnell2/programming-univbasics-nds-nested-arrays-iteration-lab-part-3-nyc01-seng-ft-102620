@@ -6,6 +6,7 @@ def join_nested_strings(src)
     for k in 0...src[i].size do
       if src[i][k].is_a? String
         master_string += src[i][k]
+        master_string += " "
       end
     end
   end
